@@ -1,0 +1,138 @@
+html
+{
+  scroll-behavior: smooth;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: #5900ff62;
+}
+.frame-child4 {
+  top: 40px;
+  left: 1069px;
+  filter: blur(400px);
+  width: 670px;
+  height: 203px;
+}
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.frame-child5 {
+  top: 942px;
+  left: 910px;
+  filter: blur(700px);
+  width: 628px;
+  height: 773px;
+  transform: rotate(-89.9deg);
+  transform-origin: 0 0;
+}
+.frame-child6 {
+  top: 608px;
+  left: -142px;
+  filter: blur(500px);
+  width: 763px;
+  height: 872px;
+}
+.image-5-icon2 {
+  position: absolute;
+  top: 353px;
+  left: -794px;
+  width: 1589px;
+  height: 1454px;
+  object-fit: cover;
+}
+.partners2 {
+  position: absolute;
+  top: 192px;
+  left: 1129px;
+  font-size: var(--font-size-81xl);
+  font-weight: 800;
+}
+.image-6-icon {
+  position: absolute;
+  top: 407px;
+  left: 911px;
+  width: 316px;
+  height: 92px;
+  object-fit: cover;
+}
+.image-7-icon,
+.image-8-icon,
+.image-9-icon {
+  position: absolute;
+  top: 412px;
+  left: 1351px;
+  width: 349px;
+  height: 82px;
+  object-fit: cover;
+}
+.image-8-icon,
+.image-9-icon {
+  top: 629px;
+  left: 1013px;
+  width: 214px;
+  height: 101px;
+}
+.image-9-icon {
+  top: 614px;
+  left: 1414px;
+  width: 233px;
+  height: 130px;
+}
+.events3,
+.partners3 {
+  position: absolute;
+  top: 85px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.events3 {
+  left: 984px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.partners3 {
+  left: 1225px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about2,
+.partners3 {
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about-us2,
+.main2 {
+  position: absolute;
+  top: 85px;
+  left: 1504px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.main2 {
+  left: 780px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.ellipse-top {
+  width: 1903px;
+  position: relative;
+  background-image: url("public/Group\ 16.png");
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+  margin: auto;
+}

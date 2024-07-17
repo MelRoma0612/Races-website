@@ -1,0 +1,126 @@
+body
+{
+  min-width: 1903px;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: #5900ff62;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 245px;
+  left: 763px;
+  filter: blur(500px);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 1157px;
+  height: 351px;
+}
+.frame-item {
+  top: 608px;
+  left: -142px;
+  width: 763px;
+  height: 872px;
+}
+.events,
+.partners {
+  position: absolute;
+  top: 85px;
+}
+.events {
+  left: 985px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.partners {
+  left: 1226px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about,
+.partners {
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about-us,
+.main {
+  position: absolute;
+  top: 85px;
+  left: 1505px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.main {
+  left: 781px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.events:hover
+{
+  color: #5900ff62;
+}
+.main:hover
+{
+  color: #5900ff62;
+}
+.partners:hover
+{
+  color: #5900ff62;
+}
+
+.image-5-icon {
+  position: absolute;
+  top: 353px;
+  left: -794px;
+  width: 1589px;
+  height: 1454px;
+  object-fit: cover;
+}
+.simcentral {
+  position: absolute;
+  top: 306px;
+  left: 870px;
+  font-size: 120px;
+  font-weight: 800;
+}
+.the-largest-simrace {
+  position: absolute;
+  top: 452px;
+  left: 1169px;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: right;
+  display: inline-block;
+  width: 533px;
+  height: 111px;
+}
+.ellipse-parent {
+  transform: scale(1);
+  width: 1903px;
+  position: relative;
+  background-image: url("public/Group\ 14.png");
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+  margin: auto;
+  display: block;
+}
+.svet1{
+  top: 100px;
+  left:100px;
+}

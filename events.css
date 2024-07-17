@@ -1,0 +1,237 @@
+html
+{
+  scroll-behavior: smooth;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: #5900ff62;
+}
+.frame-inner {
+  position: absolute;
+  top: 248px;
+  right: 93px;
+  filter: blur(400px);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 670px;
+  height: 203px;
+}
+.ellipse-div,
+.frame-child1 {
+  left: 515px;
+  filter: blur(700px);
+  width: 1266px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 613px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  height: 639px;
+}
+.frame-child1 {
+  top: 1392px;
+  height: 610px;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.frame-child2 {
+  top: 2158px;
+  left: 515px;
+  filter: blur(700px);
+  width: 1284px;
+  height: 590px;
+}
+.frame-child3 {
+  bottom: -400px;
+  left: -142px;
+  filter: blur(500px);
+  width: 763px;
+  height: 872px;
+}
+.image-5-icon1 {
+  position: absolute;
+  bottom: -727px;
+  left: -794px;
+  width: 1589px;
+  height: 1454px;
+  object-fit: cover;
+}
+.events1 {
+  position: absolute;
+  top: 304px;
+  right: 200px;
+  font-size: 100px;
+  font-weight: 800;
+}
+.group-child,
+.image-10-icon {
+  position: absolute;
+  left: 0;
+  width: 1115px;
+}
+.group-child {
+  top: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-11xl) var(--br-11xl);
+  background: linear-gradient(70.91deg, #d4fffc, #aeaeae);
+  height: 656px;
+}
+.image-10-icon {
+  top: 24px;
+  height: 452px;
+  object-fit: cover;
+}
+.race-30min,
+.time-1700 {
+  position: absolute;
+  top: 508px;
+  left: 70px;
+  font-weight: 600;
+}
+.time-1700 {
+  top: 569px;
+}
+.mandatory-tyre-change,
+.refuel-no {
+  position: absolute;
+  top: 508px;
+  left: 485px;
+  font-weight: 600;
+}
+.refuel-no {
+  top: 569px;
+  left: 842px;
+}
+.group-item,
+.rectangle-parent {
+  position: absolute;
+  width: 1115px;
+  height: 656px;
+}
+.rectangle-parent {
+  top: 613px;
+  left: 586px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+}
+.group-item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) var(--br-11xl) var(--br-11xl);
+  background: linear-gradient(70.91deg, #d5fffc, #aeaeae);
+}
+.mandatory-tyre-change1,
+.race-60min,
+.time-1400 {
+  position: absolute;
+  top: 508px;
+  left: 69px;
+  font-weight: 600;
+}
+.mandatory-tyre-change1,
+.time-1400 {
+  top: 569px;
+}
+.mandatory-tyre-change1 {
+  top: 508px;
+  left: 480px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 1369px;
+  left: 586px;
+  width: 1115px;
+  height: 656px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+}
+.race-120min,
+.refuel-yes {
+  position: absolute;
+  font-weight: 600;
+}
+.race-120min {
+  top: 508px;
+  left: 69px;
+  text-align: left;
+}
+.refuel-yes {
+  top: 569px;
+  left: 837px;
+}
+.image-12-icon {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 1115px;
+  height: 450px;
+  object-fit: cover;
+}
+.rectangle-container {
+  position: absolute;
+  top: 2125px;
+  left: 586px;
+  width: 1115px;
+  height: 656px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+}
+.events2,
+.partners1 {
+  position: absolute;
+  top: 85px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.events2 {
+  left: 985px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.partners1 {
+  left: 1226px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about1,
+.partners1 {
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.about-us1,
+.main1 {
+  position: absolute;
+  top: 85px;
+  left: 1505px;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.main1 {
+  left: 781px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.ellipse-root {
+  width: 1903px;
+  position: relative;
+  background-image: url("public/Group\ 15.png");
+  height: 3663px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+  margin: auto;
+}
